@@ -34,6 +34,8 @@ public class Rectangle {
 			return false;
 		if (!(obj instanceof Rectangle))
 			return false;
+		if (!(this instanceof RectangleColore) && obj instanceof RectangleColore)
+			return false;
 		// On sait que obj est un rectangle (par l'instanceof)
 		Rectangle rect = (Rectangle) obj;
 		return (rect.largeur == this.largeur && this.hauteur == rect.hauteur);
