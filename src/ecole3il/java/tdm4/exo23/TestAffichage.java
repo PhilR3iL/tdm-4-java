@@ -10,16 +10,16 @@ public class TestAffichage {
 						// A (ref A) -> A (ref A)
 						// x.bin(y)
 						// x : type dynamique, type de la référence
-		System.out.println(aa.bin(aa));
-		System.out.println(aa.bin(bb));
-		System.out.println(aa.bin(ab));
+		System.out.println(aa.bin_A(aa));
+		System.out.println(aa.bin_B(bb));
+		System.out.println(aa.bin_A(ab));
 		
-		System.out.println(bb.bin(aa));
-		System.out.println(bb.bin(bb));
-		System.out.println(bb.bin(ab));
+		System.out.println(bb.bin_A(aa));
+		System.out.println(bb.bin_B(bb));
+		System.out.println(bb.bin_A(ab));
 		
-		System.out.println(ab.bin(aa));
-		System.out.println(ab.bin(bb));
-		System.out.println(ab.bin(ab));
+		System.out.println(ab.bin_A(aa));
+		System.out.println(ab.bin_B(bb));
+		System.out.println(ab.bin_A(ab));
 	}
 }
