@@ -4,4 +4,8 @@ public class A {
 	int bin(A y) {
 		return 1;
 	}
+	
+	int bin(B y) {
+		return 1;
+	}
 }
